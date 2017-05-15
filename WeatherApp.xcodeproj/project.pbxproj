@@ -38,6 +38,9 @@
 		723767121ECA1D5F008DD003 = {
 			isa = PBXGroup;
 			children = (
+				723767321ECA1DB9008DD003 /* Controler */,
+				723767311ECA1DB0008DD003 /* Model */,
+				723767301ECA1DA4008DD003 /* View */,
 				7237671D1ECA1D5F008DD003 /* WeatherApp */,
 				7237671C1ECA1D5F008DD003 /* Products */,
 			);
@@ -62,6 +65,27 @@
 				7237672A1ECA1D5F008DD003 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		723767301ECA1DA4008DD003 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		723767311ECA1DB0008DD003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		723767321ECA1DB9008DD003 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +325,7 @@
 				7237672F1ECA1D5F008DD003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
