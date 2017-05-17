@@ -14,6 +14,7 @@
 		725228DF1ECA7ED900F27F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725228DD1ECA7ED900F27F76 /* Main.storyboard */; };
 		7261FC7F1ECB4C1900DF2360 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261FC7E1ECB4C1900DF2360 /* Constants.swift */; };
 		7261FC811ECB51DA00DF2360 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261FC801ECB51DA00DF2360 /* CurrentWeather.swift */; };
+		7261FC831ECBDB2600DF2360 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261FC821ECBDB2600DF2360 /* Forecast.swift */; };
 		EA9B60352DFB066B6FAE0702 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5188A233FF215422FA02CCE3 /* Pods_WeatherApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		725228DE1ECA7ED900F27F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7261FC7E1ECB4C1900DF2360 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7261FC801ECB51DA00DF2360 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		7261FC821ECBDB2600DF2360 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		E3B9444E8F7D40D461B1E471 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				7237672A1ECA1D5F008DD003 /* Info.plist */,
 				7261FC7E1ECB4C1900DF2360 /* Constants.swift */,
 				7261FC801ECB51DA00DF2360 /* CurrentWeather.swift */,
+				7261FC821ECBDB2600DF2360 /* Forecast.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				7237671F1ECA1D5F008DD003 /* AppDelegate.swift in Sources */,
 				7261FC811ECB51DA00DF2360 /* CurrentWeather.swift in Sources */,
 				7261FC7F1ECB4C1900DF2360 /* Constants.swift in Sources */,
+				7261FC831ECBDB2600DF2360 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
